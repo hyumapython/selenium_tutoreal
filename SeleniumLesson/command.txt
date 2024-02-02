@@ -1,0 +1,17 @@
+### 仮想環境の作成:
+# Windowsの場合
+python -m venv venv
+
+# macOSやLinuxの場合
+python3 -m venv venv
+
+
+### 仮想環境の有効化:
+# Windowsの場合
+.\venv\Scripts\activate
+
+# macOSやLinuxの場合
+source venv/bin/activate
+
+pip install selenium
+pip install webdriver-manager
